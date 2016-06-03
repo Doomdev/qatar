@@ -1,0 +1,21 @@
+{% extends "qatarBundle::layout.html.twig" %}
+
+{% block title %}CAROSSERIE ET MECANIQUE{% endblock %}
+   {% block header %}
+
+       {% include '@qatar/header.html.twig' with {h1: 'SERVICE AUTOMOBILE'} only %}
+
+
+   {% endblock header %}
+
+
+{% block content %}
+
+    <div class="col-md-9 col-sm-12 doom1" id="sliderstatic">
+        <div id="sliderstatic3">
+            <img src="{{ asset('image/carosserie.png') }}" alt="Carosserie-et-mecanique" height="100%" width="100%">
+        </div>
+    </div>
+
+
+{% endblock %}

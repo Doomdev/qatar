@@ -1,0 +1,35 @@
+qatarBundle\Entity\Reservation:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        date:
+            type: datetime
+        heures:
+            type: array
+        nbrHeures:
+            type: integer
+            column: nbr_heures
+        tarif:
+            type: float
+        email:
+            type: string
+            length: 255
+        telephone:
+            type: string
+            length: 255
+        nom:
+            type: string
+            length: 255
+        prenom:
+            type: string
+            length: 255
+        detail:
+            type: string
+            length: 2048
+    lifecycleCallbacks: {  }

@@ -1,0 +1,85 @@
+qatar_homeDefault:
+    path:     /
+    defaults: { _controller: qatarBundle:Default:index }
+
+
+qatar_service:
+    path:     /service
+    defaults: { _controller: qatarBundle:Default:service }
+
+qatar_location_voiture:
+    path:     /location-voiture
+    defaults: { _controller: qatarBundle:LocationVoiture:adresse }
+
+qatar_location_reservation:
+    path:     /location-voiture/reservation
+    defaults: { _controller: qatarBundle:LocationVoiture:reservation }
+
+qatar_location_horaires:
+    path:     /location-voiture/horaires
+    defaults: { _controller: qatarBundle:LocationVoiture:horaires }
+
+qatar_location_recapitulatif:
+    path:     /location-voiture/recapitulatif
+    defaults: { _controller: qatarBundle:LocationVoiture:recapitulatif }
+
+qatar_location_paiement:
+    path:     /location-voiture/paiement
+    defaults: { _controller: qatarBundle:LocationVoiture:paiement }
+
+qatar_location_confirmation:
+    path:     /location-voiture/confirmation
+    defaults: { _controller: qatarBundle:LocationVoiture:confirmation }
+
+
+qatar_contact:
+    path:     /contact
+    defaults: { _controller: qatarBundle:Contact:index }
+
+qatar_scg:
+    path:  /service-carte-grise
+    defaults: { _controller: qatarBundle:Default:scg }
+
+qatar_assutempo:
+    path:  /assutempo
+    defaults: { _controller: qatarBundle:Default:assutempo }
+
+qatar_certif:
+    path:  /certif
+    defaults: { _controller: qatarBundle:Default:certif }
+
+qatar_declaration:
+    path:  /declaration
+    defaults: { _controller: qatarBundle:Default:declaration }
+
+qatar_decladesession:
+    path:  /formulaires-cerfa
+    defaults: { _controller: qatarBundle:Default:decladesession }
+
+qatar_plaque:
+    path:  /plaque
+    defaults: { _controller: qatarBundle:Default:plaque }
+
+qatar_tarification:
+    path:  /tarification
+    defaults: { _controller: qatarBundle:Default:tarification }
+
+qatar_cta:
+    path:  /cta
+    defaults: { _controller: qatarBundle:Default:cta }
+
+qatar_achatetvente:
+    path:  /achatetvente
+    defaults: { _controller: qatarBundle:Default:achatetvente }
+
+qatar_carosserie:
+    path:  /carosserie
+    defaults: { _controller: qatarBundle:Default:carosserie }
+
+qatar_presentation:
+    path:  /presentation
+    defaults: { _controller: qatarBundle:Default:presentation }
+
+qatar_cartegrise:
+    path:  /carte-grise
+    defaults: { _controller: qatarBundle:Default:cartegrise }

@@ -1,0 +1,39 @@
+{% extends "qatarBundle::layout.html.twig" %}
+
+{% block title %}LOCATION VOITURE DOUBLE COMMANDE{% endblock %}
+
+{% block header %}
+       {% include '@qatar/header.html.twig' with {h1: 'SERVICE AUTOMOBILE'} only %}
+{% endblock header %}
+
+
+{% block content %}
+
+    <div class="col-md-9 col-sm-12 doom1" id="sliderstatic">
+        <div class="col-md-8 col-sm-12" id="sliderstaticx">
+            <img src="{{ asset('image/cta.png') }}" alt="Smiley face" height="100%" width="100%">
+        </div>
+
+        <div class="col-md-4 col-sm-12" id="sliderstaticxy">
+            <div class="col-md-12" id="texto">
+                <p>195 Route de SAint-Leu</p>
+                </hr>
+                <p>93800 Epinay sur Seine</p>
+                </hr>
+                <p>Tel.: 01 49 51 81 30</p>
+                <a href = "http://www.controle-technique-epinay-sur-seine.securitest.fr/"><img src="{{ asset('image/prendre-rdv.png') }}" alt="Smiley face" height="" width="100%"></a>
+            </div>
+            <div class="col-md-12" id="texto2">
+                <p>13 Rue Pleyel 93200</p>
+                </hr>
+                <p>Saint-Denis</p>
+                </hr>
+                <p>Tel.: 01 48 09 13 63</p>
+                <a href = "http://www.controle-technique-epinay-sur-seine.securitest.fr/"><img src="{{ asset('image/prendre-rdv.png') }}" alt="Smiley face" height="" width="100%"></a>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}
+

@@ -1,0 +1,32 @@
+qatarBundle\Entity\Contact:
+    type: entity
+    table: null
+    repositoryClass: qatarBundle\Entity\ContactRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nom:
+            type: string
+            length: '25'
+        prenom:
+            type: string
+            length: '35'
+        societe:
+            type: string
+            length: '40'
+        adresse:
+            type: string
+            length: '120'
+        telephone:
+            type: decimal
+        email:
+            type: string
+            length: '60'
+        description:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

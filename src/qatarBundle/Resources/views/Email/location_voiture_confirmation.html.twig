@@ -1,0 +1,16 @@
+<div><strong>Nom : </strong>{{ data.nom }}</div>
+<div><strong>Prénom : </strong>{{ data.prenom }}</div>
+<div><strong>Email : </strong>{{ data.email }}</div>
+<div><strong>Téléphone : </strong>{{ data.telephone }}</div>
+<div><strong>Détail : </strong>{{ data.detail | nl2br }}</div>
+<p></p>
+<div><strong>Date : </strong>{{ data.date | date('d/m/Y') }}</div>
+<div><strong>Horaires demandés : </strong>
+    <ul>
+    {% for heure in data.heures %}
+        <li>{{ heure }}</li>
+    {% endfor %}
+    </ul>
+</div>
+<div><strong>Nombre d'heures : </strong>{{ data.nbrHeures }}</div>
+<div><strong>Tarif : </strong>{{ data.tarif }}€</div>

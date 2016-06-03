@@ -1,0 +1,55 @@
+<div class="container">
+    <div class="row old">
+        <div class="col-md-4 col-sm-12" id="logo">
+            <img src="{{ asset('image/logo2.png') }}" alt="Smiley face" height="101" width="364">
+        </div>
+        <div class="col-md-8 col-sm-12 doom">
+            {% block H1 %}<h1>{{ h1 }}</h1>{% endblock%}
+        </div>
+    </div>
+
+    <div class="col-md-12 col-sm-push-3">
+        <div class="col-md-3 col-sm-12 text-center">
+            <a href="{{ path('qatar_service') }}"><img src="{{ asset('image/acueuil1.png') }}" alt="Smiley face" height="49" width="114"></a>
+        </div>
+        <a href="{{ path('qatar_contact') }}"><div class="col-md-3 col-sm-12 text-center">
+            <img src="{{ asset('image/presentation1.png') }}" alt="Smiley face" height="49" width="114">
+        </div></a>
+        <div class="col-md-3 col-sm-12 text-center" >
+            <a href="{{ path('qatar_contact') }}"><img src="{{ asset('image/inscription1.png') }}" alt="Smiley face" height="49" width="114"></a>
+        </div>
+    </div>
+    <!-- /.row -->
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+
+                        <li class="dropdown">
+                            <a href="{{ path('qatar_scg') }}" class="dropdown-toggle" data-toggle="dropdown" >SERVICE CARTE GRISE<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="one-one"><a href="{{ path('qatar_cartegrise') }}">CARTE GRISE</a></li>
+                            <li class="one"><a href="{{ path('qatar_assutempo') }}">ASSURANCE TEMPORAIRE</a></li>
+                            <li class="one"><a href="{{ path('qatar_decladesession') }}">FORMULAIRES/CERFA</a></li>
+                            <li class="one"><a href="{{ path('qatar_plaque') }}">PLAQUE D'IMMATRICULATION</a></li>
+                        </li>
+                    </ul>
+                    <li><a href="{{ path('qatar_location_voiture') }}">LOCATION VOITURE</a></li>
+                    <li><a href="{{ path('qatar_cta') }}">CONTROLE TECHNIQUE </a></li>
+                    <li><a href="{{ path('qatar_declaration') }}">VENTE DE VEHICULES</a></li>
+                    <li><a href="{{ path('qatar_carosserie') }}">GARAGE</a></li>
+                    <li><a href="{{ path('qatar_contact') }}">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+

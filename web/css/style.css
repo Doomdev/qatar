@@ -1,0 +1,422 @@
+
+html {
+  height: 100%;
+
+}
+body {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+    width: auto;
+}
+
+.main {
+    background-color: transparent;
+}
+
+.number{
+    float: right;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.contact {
+    float: right;
+    color: #ffffff;
+}
+
+li > a{
+    color:white !important;
+
+}
+.navbar-brand {
+    float: none;
+    padding: 5px;
+}
+.navbar-center {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    height:100%;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-default {
+background-color: transparent !important;
+border-color: transparent !important;
+}
+
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+.footer-nav{
+    padding-right: 8px;
+}
+
+.center-pills { display: inline-block; }
+.center-pills {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs{
+    border-bottom: transparent;
+}
+
+
+.navbar-fixed-bottom{
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.form-inline{
+    background-color: #ffffff;
+}
+
+.form-horizontal{
+    background-color: rgba(250, 250, 250, 0.4);
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    margin:0;
+    height:100%;
+}
+
+#qatarbundle_contacts_prenom{
+   margin-left:7px;
+}
+
+#qatarbundle_contacts_description{
+    margin-left:18px !important;
+    height:240px;
+    width:280px;
+}
+
+#logo{
+    padding-top:5px;
+}
+
+#forme{
+ margin-top:20px;
+}
+
+#car2{
+    margin-bottom:20px;
+    margin-left: 170px;
+}
+
+#car3{
+    padding:0;
+    margin-top:3%;
+}
+
+#car{
+
+    margin-left: 5px;
+    margin-bottom: -17px;
+    padding:0;
+    position:fixed;
+    bottom:0;
+}
+
+
+.form-group input{
+
+    margin-left: 30px;
+    border-radius:6px;
+
+}
+
+.checkbox-inline{
+    margin-right: 35px;
+    margin-left: 35px;
+
+}
+.checkboxone{
+    margin-bottom:8px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+.para{
+    margin:0 auto;
+    padding: 0;
+}
+
+.puce {
+    list-style-type: square !important;
+    list-style-image: none !important;
+    background-image: none !important;
+}
+
+
+.puce2 {
+    padding-left: 12px;
+    list-style-type: square !important;
+
+}
+
+.doom1 ul{
+    list-style: none !important;
+    list-style-image: none !important;
+}
+
+.one{
+    margin-right:21px;
+    background: none !important;
+}
+
+}
+
+
+#font-one{
+    font-size: 16px;
+    font-familly:arial;
+    color: #B45700;
+   
+}
+
+#font-two{
+    color:#B45700;
+   
+}
+
+#font-three{
+    color:white;
+    font-size: 12px;
+   
+}
+
+#text-scroll{
+   overflow: scroll;  
+   height: 320px;
+   color: white;
+}
+
+#bs-example-navbar-collapse-1{
+ font-size: 12px;
+}
+
+#sliderstatic{
+height: 320px;
+border: 4px solid #B45700;
+padding:5px;
+margin-bottom: 65px;
+}
+
+#sliderstaticx{
+    height: 100%;
+    border: 4px solid white;
+    padding:2px;
+}
+
+#sliderstaticxy{
+    height: 100%;
+    border: 4px solid white;
+    padding:13px;
+}
+#texto p{
+    margin:0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 2px;
+}
+
+#texto img{
+    padding-bottom: 2px;
+}
+
+#texto2 p{
+    margin:0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 2px;
+}
+
+#sliderstatic2{
+    overflow:hidden;
+    height:100%;
+    width:100%;
+}
+
+#sliderstatic2 img{
+    text-align:center;
+    width:100%;
+    height:100%;
+}
+
+#sliderstatic3{
+
+    overflow:hidden;
+    height:100%;
+    width:100%;
+    text-align:center;
+    margin-bottom: 25px;
+}
+
+#sliderstatic3 img{
+
+    text-align:center;
+    overflow:hidden;
+}
+
+#texto #texto2{
+    height:50% !important;
+}
+
+#texto{
+    border-bottom: 2px solid white;
+}
+
+#sliderstatic4{
+
+    overflow:hidden;
+    height:100%;
+    width:100%;
+    text-align: center;
+}
+
+
+#sliderstatic4 img{
+    text-align:center;
+    overflow:hidden;
+    height:100%
+}
+
+br{
+    margin:0;
+    padding:0;
+}
+
+ul {
+    list-style:none !important;
+}
+
+li+li{
+display : list-item !important;
+background : url(../image/rond2.png) no-repeat 0 53%  !important;
+list-style-position: outside;
+padding-left: 12px;
+vertical-align: middle !important;
+
+
+}
+
+.doom{
+    color:#8F6D44;
+}
+
+.doom1{
+    color: white;
+    float: none !important;
+    margin: 0 auto !important;
+    padding-bottom: 65px;
+
+}
+
+.doom1 h2{
+    background-color: #8F6D44;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.font-weight{
+    font-weight: bold;
+}
+
+h1{
+    font-family: ARIAL !important;
+    font-weight: 500 !important;
+    line-height: 2 !important;
+    color: inherit !important;
+    font-size: 30px !important;
+    vertical-align: middle !important;
+}
+
+.old{
+ margin-top: 6%;
+}
+
+.navbar-nav > li > a{
+    padding: 0;
+}
+
+.dropdown-menu li a{
+    color: black !important;
+}
+
+.one-one{
+
+    margin-left:12px;
+    background: none !important;
+}
+
+#contact_description{
+    margin-left: 30px;
+    width: 250px;
+    height: 190px;
+    border-radius: 8px;
+}
+
+#contact_validate{
+    float: right;
+    width: 250px;
+}
+
+#contact_prenom{
+   margin-left: 7px;
+}
+--------------------------------------
+
+@media (min-width: 1200px) {
+
+}
+

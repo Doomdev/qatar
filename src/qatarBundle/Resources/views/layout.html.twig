@@ -1,0 +1,43 @@
+{% extends "::base.html.twig" %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('css/styleBack.css') }}">
+    <link href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" rel="stylesheet">
+{% endblock %}
+
+
+{% block body %}
+    {% block header %}
+        {% include '@qatar/header.html.twig' %}
+    {% endblock header %}
+
+    {% block content %}
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    {% block scroll %}
+                    {% endblock %}
+                </div>
+                <div class="col-md-9 col-sm-12" id="sliderstatic">
+                    {% block info %}
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+    {% endblock %}
+
+    {% block footer %}
+        {% include '@qatar/footer.html.twig' %}
+    {% endblock %}
+{%  endblock %}
+
+
+{% block javascripts %}
+    <script src="{{ asset('js/jquery.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/daterangepicker/moment.min.js') }}"></script>
+    <script src="{{ asset('js/daterangepicker/daterangepicker.js') }}"></script>
+    <script src="{{ asset('js/qatarcar-datepicker.js') }}"></script>
+    <script src="{{ asset('js/menu-hover.js') }}"></script>
+{% endblock %}

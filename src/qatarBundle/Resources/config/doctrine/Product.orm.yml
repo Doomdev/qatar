@@ -1,0 +1,40 @@
+qatarBundle\Entity\Product:
+    type: entity
+    table: null
+    repositoryClass: qatarBundle\Entity\ProductRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+        marque:
+            type: string
+            length: 255
+        prix:
+            type: decimal
+        kilometre:
+            type: decimal
+        transmission:
+            type: string
+            length: 255
+        puissance:
+            type: string
+            length: 255
+        anne:
+            type: decimal
+        energie:
+            type: decimal
+        portes:
+            type: decimal
+        image:
+            type: string
+            length: 255
+        description:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

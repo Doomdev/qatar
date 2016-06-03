@@ -1,0 +1,64 @@
+{% extends "qatarBundle::layout.html.twig" %}
+
+{% block title %}LOCATION VOITURE DOUBLE COMMANDE{% endblock %}
+   {% block header %}
+
+       {% include '@qatar/header.html.twig' with {h1: 'SERVICE AUTOMOBILE'} only %}
+
+
+   {% endblock header %}
+
+
+{% block content %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-12 centered doom1">
+               <span><h2>Présentation</h2></span>
+
+                <p>QATAR CARS est une société implante dans le marché automobile depuis 2012,dans le but  de vous facilite toute démarches administratifs et de vous soulager des grandes filles d’attente à la préfecture.</p>
+
+                <p class="font-weight">Professionnels de l'automobile, nous sommes habilités par le Ministère de l'Intérieur et le Trésor Public pour faire en votre nom vos démarches d'immatriculation.</p>
+
+                <p>Spécialisés dans le secteur de l’automobile. Nous vous proposons la location de voiture a double commande et Nous effectuons directement l’immatriculation de votre véhicule en moins de 10min
+                afin d’obtenir votre carte grise, nous effectuons également les déclarations de cession de véhicule pour les particuliers  auprès de la préfecture, et pour les professionnels nous nous occupons
+                des déclarations d’achat et de cession. Nous proposons à nos clients des assurances temporaires de 5 à 90 jours, ainsi que la pose de plaque d’immatriculation, vente divers accessoires automobile
+                et achat vente des véhicules multimarque</p>
+
+                <p class="font-weight">Notre mission: vous faire gagner du temps et de l'argent en vous permettant d'obtenir en un temps record votre nouvelle carte grise sans vous déplacer en préfecture.</p>
+                <h3>Horaire d’ouverture</h3>
+                <p>DU Lundi au dimanche de 09h00 à 19h00</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+{% endblock %}
+
+
+{#
+<div class="row">
+    <div class="col-md-12" style="margin: 20px">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-9">
+            <div class="col-md-4 text-center">
+                <a href="{{ path('qatar_reservation') }}">
+                    Réservation
+                </a>
+            </div>
+            <div class="col-md-4 text-center">
+                <a href="{{ path('qatar_tarification') }}">
+                    Tarification
+                </a>
+            </div>
+            <div class="col-md-4 text-center">
+                <a href="{{ path('qatar_reservation') }}">
+                    Condition
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+#}

@@ -1,0 +1,28 @@
+{% extends "qatarBundle::layout3.html.twig" %}
+
+    {% block header %}
+
+        {% include '@qatar/header.html.twig' with {h1: 'SERVICE AUTOMOBILE'} only %}
+
+
+    {% endblock header %}
+{% block content %}
+    <div class="container" id="car">
+        <div class="col-md-3 col-sm-12" id="car3">
+            <img src="{{ asset('image/voiture-or2.png') }}" alt="Smiley face" height="570" width="400">
+        </div>
+    </div>
+
+    <div class="container" id="car3">
+        <div class="col-md-9 col-sm-12 col-md-offset-3"  id="car2">
+            <img src="{{ asset('image/dessin3.png') }}" alt="Smiley face" height="350" width="800">
+        </div>
+    </div>
+
+
+
+{% endblock %}
+
+
+
+

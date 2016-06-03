@@ -1,0 +1,46 @@
+{% extends "qatarBundle::layout.html.twig" %}
+
+{% block title %}LOCATION VOITURE DOUBLE COMMANDE{% endblock %}
+   {% block header %}
+
+       {% include '@qatar/header.html.twig' with {h1: 'SERVICE AUTOMOBILE'} only %}
+
+
+   {% endblock header %}
+
+
+{% block content %}
+
+    <div class="col-md-9 col-sm-12 doom1" id="sliderstatic">
+        <div id="sliderstatic3">
+            <img src="{{ asset('image/ce.jpg') }}" alt="Carosserie-et-mecanique" height="100%" width="">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-sm-12 centered doom1">
+                <span><h2>Formulaires/Cerfa</h2></span>
+
+                QATAR CARS mes a votre disposition des documents que vous pouvez télécharger.
+
+
+
+                <ul>
+                    <li class="puce2">Demande d’immatriculation </li>
+                    <li class="puce">Certificat de cession </li>
+                    <li class="puce">Déclaration de cession </li>
+                    <li class="puce">Mandat pro</li>
+                    <li class="puce">Attestation d’hébergement </li>
+                    <li class="puce">Procuration </li>
+                    <li class="puce">Declaration de perte  </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}
+
+
+
+

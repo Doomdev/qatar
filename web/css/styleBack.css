@@ -1,0 +1,43 @@
+.full {
+
+    background: url("../image/fond2.jpg") no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+
+    background-size: cover;
+
+    background-size:100% 100%;
+
+
+
+}
+
+#footer-two{
+    margin:0 auto;
+    position: absolute !important;
+    bottom: 0 !important;
+    width: 100%;
+    background-color: black;
+}
+
+#font-one{
+    font-size: 16px;
+    font-familly:arial;
+    color: #B45700;
+
+}
+
+#font-two{
+    color:#B45700;
+
+}
+
+#font-three{
+    color:white;
+    font-size: 12px;
+
+}

@@ -1,0 +1,32 @@
+{% extends "qatarBundle::layout2.html.twig" %}
+   {% block header %}
+
+       {% include '@qatar/header.html.twig' with {h1: 'SERVICE AUTOMOBILE'} only %}
+
+
+   {% endblock header %}
+{% block content %}
+
+    <div class="container">
+        <div class="vertical-center">
+            <a href="{{ path('qatar_service') }}"><img src="{{ asset('image/logo2.png') }}" alt="Smiley face" height="180" width="546"></a>
+        </div>
+    </div>
+
+
+{% endblock %}
+
+  {% block footer %}
+      <div id="footer-two">
+          <div class="container text-center">
+              <div class="row">
+                  <div>
+                      <p class="para" id="font-one">195 Route de Saint-Leu Epinay sur Seine</p>
+                      <p class="para" id="font-two">Tel: 01 79 72 79 79</P>
+                      <p class="para" id="font-three">Copiright 2015 Qatarcars tous droits réservés</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  {% endblock %}

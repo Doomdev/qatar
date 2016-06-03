@@ -1,0 +1,30 @@
+{% extends "qatarBundle::layout.html.twig" %}
+
+{% block title %}LOCATION VOITURE DOUBLE COMMANDE{% endblock %}
+   {% block header %}
+
+       {% include '@qatar/header.html.twig' with {h1: 'SERVICE AUTOMOBILE'} only %}
+
+
+   {% endblock header %}
+
+
+{% block content %}
+
+<div class="col-md-9 col-sm-12 doom1" id="sliderstatic">
+    <div id="sliderstatic3">
+        <img src="{{ asset('image/plaque.jpg') }}" alt="Smiley face" height="100%" width="100%">
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-sm-12 centered doom1">
+            <span><h2>Plaque d'Immatriculation</h2></span>
+            <p>un véhicule peut être immatriculé n’importe où sur le territoire, et pas obligatoirement
+                dans le département de résidence de son propriétaire.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

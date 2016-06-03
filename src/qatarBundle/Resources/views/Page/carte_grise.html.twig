@@ -1,0 +1,97 @@
+{% extends "qatarBundle::layout.html.twig" %}
+
+{% block title %}LOCATION VOITURE DOUBLE COMMANDE{% endblock %}
+   {% block header %}
+
+       {% include '@qatar/header.html.twig' with {h1: 'SERVICE AUTOMOBILE'} only %}
+
+
+   {% endblock header %}
+
+
+{% block content %}
+
+
+
+
+        <div class="col-md-9 col-sm-12 doom1" id="sliderstatic">
+            <div id="sliderstatic3">
+                <img src="{{ asset('image/carte-grise.png') }}" alt="Smiley face" height="100%" width="100%">
+            </div>
+        </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-sm-12 centered doom1">
+                <span><h2>Carte grise</h2></span>
+
+                <h3>Pièces à fournir</h3>
+
+                *Retrouvez la liste des pièces nécessaires ci-dessous.
+
+                <h4>Pour les particuliers</h4>
+
+                <ul>
+                    <li class="puce2">Papier de cession du véhicule</li>
+                    <li class="puce">Carte Grise barrée et signée</li>
+                    <li class="puce">Contrôle technique de moins de 6 mois</li>
+                    <li class="puce">Justificatif de domicile de moins de 3 mois(quittance de loyer ou EDF)</li>
+                    <li class="puce">Pièce d’identité (Passeport ou C.I.N)</li>
+                </ul>
+
+                <h4>Si le demandeur est hébergé</h4>
+
+                <ul>
+                    <li class="puce2">Attestation d’hébergement</li>
+                    <li class="puce">Pièce d’identité de l’hébergeant</li>
+                    <li class="puce">Preuve de l’hébergement</li>
+
+                </ul>
+
+                <h4>Pour les Sociétés</h4>
+
+                <ul>
+                    <li class="puce2">KBIS de moins de 6 mois</li>
+                    <li class="puce">Pièce d’identité du gérant</li>
+
+                </ul>
+
+                Si une personne se déplace pour vous, une procuration et votre pièce d’identité.
+
+                <h3>Qu’est ce que la carte grise ?</h3>
+
+                <p>La Carte grise est le nom donné couramment en France à la carte d’identité (ce n’est pas un titre de propriété) d’un véhicule automobile. Elle répond au nom officiel de ‘Certification d’immatriculation’. Celui-ci est délivré par les préfectures.</p>
+
+                <p>La carte grise comporte un numéro d’immatriculation qui sera reporté sur les plaques minéralogiques du véhicule. Des vignettes des contrôles techniques successifs sont collées sur la carte grise.</p>
+
+                <p>Le coût de la carte grise dépend principalement du nombre de chevaux fiscaux de votre véhicule. En France, à compter de février 2006, la loi sur la décentralisation de l’État permet aux régions de fixer elles-mêmes les prix.</p>
+
+                <h4>Principe de la carte grise</h4>
+
+                <p class="font-weight">Le nouveau système d’immatriculation des véhicules (SIV), en vigueur depuis 2009, a simplifié la procédure pour obtenir la carte grise : la démarche d’immatriculation des véhicules peut être effectuée directement par un professionnel de l’automobile habilité par le ministère de l’intérieur (garage, professionnel du commerce de l’automobile, loueur…), que ce soit pour un véhicule neuf ou d’occasion.</p>
+
+                <h4>Particularités de la carte grise</h4>
+                <p>Le nouveau système d’immatriculation des véhicules repose sur un numéro définitif, attribué à vie au véhicule : lors de sa première mise en circulation (ou de sa première vente s’il est d’occasion), chaque véhicule est identifié par un numéro d’immatriculation qu’il conserve jusqu’à sa destruction.</p>
+                <p>En cas d’achat d’un véhicule d’occasion déjà immatriculé dans le SIV, le nouveau propriétaire conserve le même numéro, même s’il lui faut obtenir une nouvelle carte grise qui l’identifie.</p>
+                <p>Le nouveau numéro, composé de sept caractères (sur le modèle AA-123-AA), est attribué dans une série unique gérée par un système centralisé.</p>
+                <p>La plaque minéralogique, identique à l’avant et à l’arrière du véhicule, ne change pas de format et doit faire apparaître à droite un numéro de département au choix et le logo de la région correspondante.</p>
+                <P>En cas de déménagement dans un autre département, cela signifie pour le propriétaire, dont le véhicule est déjà immatriculé dans le SIV, qu’il n’est plus nécessaire de changer de plaque minéralogique ni de demander une nouvelle carte grise. Tout changement de domicile doit être signalé auprès de la préfecture de son choix, pour recevoir un autocollant sécurisé à appliquer sur la carte grise à l’emplacement de l’ancienne adresse.</P>
+
+                <p> A NOTER</p>
+
+                <p>les véhicules immatriculés dans l’ancien système conservent leur immatriculation tant que la carte grise n’est pas modifiée. C’est seulement lorsqu’une modification doit intervenir sur le certificat d’immatriculation (changement de propriétaire, de domicile ou d’état civil…) que le véhicule passe dans le SIV avec une nouvelle numérotation.
+                    Dès le paiement des taxes, le propriétaire du véhicule reçoit un certificat provisoire d’immatriculation (CPI), valable 1 mois et comportant le numéro définitif, lui permettant de circuler immédiatement. La carte grise définitive lui est ensuite adressée à domicile par un courrier sécurisé. Le CPI permet la pose des plaques d’immatriculation avant de recevoir le certificat d’immatriculation définitif.
+                </p>
+
+                <p>un véhicule peut être immatriculé n’importe où sur le territoire, et pas obligatoirement dans le département de résidence de son propriétaire.</p>
+
+                <p>depuis le 01 juin 2004, la carte grise est devenue européenne et simplifie les démarches administratives grâce au coupon détachable permettant d’effectuer certaines opérations d’immatriculation comme les changements de domicile ou de propriétaire, par voie postale, tout en ayant la possibilité de circuler pendant un mois avec cette partie détachable.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+{% endblock %}

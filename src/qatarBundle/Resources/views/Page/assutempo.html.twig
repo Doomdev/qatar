@@ -1,0 +1,35 @@
+{% extends "qatarBundle::layout.html.twig" %}
+
+{% block title %}LOCATION VOITURE DOUBLE COMMANDE{% endblock %}
+   {% block header %}
+
+       {% include '@qatar/header.html.twig' with {h1: 'SERVICE AUTOMOBILE'} only %}
+
+
+   {% endblock header %}
+
+
+{% block content %}
+
+    <div class="col-md-9 col-sm-12 doom1" id="sliderstatic">
+        <div id="sliderstatic3">
+            <img src="{{ asset('image/assutempo.png') }}" alt="Carosserie-et-mecanique" height="100%" width="100%">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-sm-12 centered doom1">
+                <span><h2>Assurance Temporairee</h2></span>
+                <p>QATAR CARS répond à vos besoins en toutes circonstances, vous venez d’acquérir une voiture, vous souhaitez en déplacer une, ou simplement circuler, notre assurance temporaire redondera à votre attente en toute sécurité et légalité.</p>
+
+                <p>Appelez-nous sur ces numéros 01.79.72.79.79 ou passez à notre agence pour plus de renseignements.</p>
+
+                <p class="font-weight">* Votre dossier sera validé aux horaires d’ouverture et après vérification.</p>
+                <p class="font-weight">** Vous devez être titulaire d’un permis depuis plus de 2 ans et être âgé de plus de 23 ans.</p>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
