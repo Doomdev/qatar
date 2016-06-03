@@ -1,8 +1,3 @@
-test test test
-
-
-
-
 Symfony Standard Edition
 ========================
 
